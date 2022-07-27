@@ -1,0 +1,7 @@
+---
+applications:
+ - name: hello_adr
+   host: hello_adr
+   buildpack: nodejs_buildpack
+   memory: 128M
+   command: node server
